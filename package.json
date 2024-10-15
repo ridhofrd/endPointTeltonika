@@ -1,0 +1,26 @@
+{
+  "name": "endpoint-teltonika",
+  "version": "1.0.0",
+  "description": "endpoint-forTeltonika",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridhofrd/endPointTeltonika.git"
+  },
+  "keywords": [
+    "endpoint-Teltonika"
+  ],
+  "author": "ridho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ridhofrd/endPointTeltonika/issues"
+  },
+  "homepage": "https://github.com/ridhofrd/endPointTeltonika#readme",
+  "dependencies": {
+    "endpoint-teltonika": "file:",
+    "express": "^4.21.1"
+  }
+}
