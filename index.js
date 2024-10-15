@@ -4,9 +4,9 @@ const app = express();
 
 app.get('/get_json_string', async(req,res) => {
     try{
-        const teltonikaState = req.body
+        const teltonikaState = req.query.json_string
 
-        res.status(200).send(teltonikaState)
+        res.status(200).send({ teltonikaState })
         console.log(teltonikaState)
     }
     catch(err){
