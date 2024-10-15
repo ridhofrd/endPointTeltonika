@@ -1,6 +1,6 @@
-#END POINT FOR TELTONIKA
+# END POINT FOR TELTONIKA
 
 Run End Point:
-``` git pull ```
-``` npm install ```
-``` node index.js ```
+git pull
+npm install
+node index.js
